@@ -1,0 +1,41 @@
+
+
+.float-left{
+    float: left;
+}
+.category{
+    display: inline-block;
+    width:80px;
+    padding:  20px;
+    font-size: 24px;
+    cursor: pointer;
+    
+}
+.selected-category{
+    color: #1a73e8;
+    border: none;
+    border-bottom: 5px solid;
+}
+.page-layout{
+    padding: 50px 100px  100px;
+   text-align: center;
+}
+.item-list{
+    display: flex;
+    
+    flex-flow: row wrap;
+    justify-content: center;
+}
+.video-player{
+    height: 50%;
+    width: 70%;
+    display: block;
+}
+    
+     
+    
+
+ .banner{
+    margin: 80px;
+ }
+ 
