@@ -51,9 +51,10 @@ export default function Home(){
     //         setData(data);
     //     }
     //     else{
-    //         setData(data.filter(movie => movie.genre === genreType));
+    //         const filteredData = data.filter(movie => movie.genre === genreType)
+    //         setData(filteredData);
     //     }
-    //     console.log('outData',data)
+        
     // }
    
     function dataSetter(value){

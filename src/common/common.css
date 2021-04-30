@@ -1,4 +1,6 @@
-
+body{
+    justify-content: center;
+}
 
 .float-left{
     float: left;
@@ -17,7 +19,6 @@
     border-bottom: 5px solid;
 }
 .page-layout{
-    padding: 50px 100px  100px;
    text-align: center;
 }
 .item-list{
@@ -37,5 +38,19 @@
 
  .banner{
     margin: 80px;
+    box-shadow: 5px 5px 5px lightgrey;
+    border-radius: 1%;
  }
  
+@media screen and (max-width:500px){
+    .banner{
+        margin: 40px;
+    }
+    
+}
+
+hr{
+    border: none;
+    border-bottom: 2px solid grey;
+    width: 85%;
+}
